@@ -8,6 +8,7 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import Flyer from "./components/Flyer/Flyer";
 import Canva from "./components/Canva/Canva";
 import Website from "./components/Website/Website";
+import UiUx  from "./components/UiUx/UiUx";
 import Logo from "./components/Logo/Logo";
 import Testimonial from "./components/Testimonials/Testimonial";
 import Contact from "./components/Contact/Contact";
@@ -37,6 +38,7 @@ function App() {
       <Flyer />
       <Canva />
       <Website />
+      <UiUx />
       <Logo />
       <Testimonial />
       <Contact />
