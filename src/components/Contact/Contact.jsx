@@ -2,6 +2,7 @@ import React, { useContext, useRef, useState } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
 import { themeContext } from "../../Context";
+import { hover } from "@testing-library/user-event/dist/hover";
 const Contact = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -49,7 +50,7 @@ const Contact = () => {
           <input type="text" name="user_name" className="user"  placeholder="Name"/>
           <input type="email" name="user_email" className="user" placeholder="Email"/>
           <textarea name="message" className="user" placeholder="Message"/>
-          <input type="submit" value="Send" className="button"/>
+          <a href="https://wa.me/923035897703" target="_blank"><input value="Send" className="button"/></a>
           <span>{done && "Thanks for Contacting me"}</span>
           <div
             className="blur c-blur1"

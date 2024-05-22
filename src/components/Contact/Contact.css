@@ -42,6 +42,8 @@ textarea{
     left: 8rem;
 }
 
+
+
 @media screen and (max-width: 480px) {
     .contact-form{
         padding: 0;
