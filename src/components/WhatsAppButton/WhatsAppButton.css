@@ -1,0 +1,22 @@
+.whatsapp-button {
+    position: fixed;
+    bottom: 40px; /* Adjust this value to position above the scroll-to-top button */
+    right: 30px; /* Adjust this value to position as needed */
+    background-color: #25D366;
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    z-index: 1000; /* Ensure it is above other elements */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 8px rgba(36, 45, 73, 0.267);
+  }
+  
+  .whatsapp-button img {
+    width: 30px;
+    height: 30px;
+  }
+  

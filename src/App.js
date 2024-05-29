@@ -14,6 +14,7 @@ import Testimonial from "./components/Testimonials/Testimonial";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import ScrollToTopButton from "./components/ScrollToTopButton/ScrollToTopButton";
+import WhatsAppButton from './components/WhatsAppButton/WhatsAppButton';
 import { useContext } from "react";
 import { themeContext } from "./Context";
 
@@ -31,6 +32,7 @@ function App() {
       <Navbar />
       <Intro />
       <ScrollToTopButton />
+      <WhatsAppButton />
       <Services />
       <Experience />
       <Works />
