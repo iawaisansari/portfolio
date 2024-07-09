@@ -2,7 +2,6 @@ import React, { useContext, useRef, useState } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
 import { themeContext } from "../../Context";
-import contactImage from "../../img/contact-image.png"; // Import the image
 
 const Contact = () => {
   const theme = useContext(themeContext);
@@ -40,7 +39,6 @@ const Contact = () => {
           {/* darkMode */}
           <span style={{ color: darkMode ? 'white' : '' }}>Get in Touch</span>
           <span>Contact me</span>
-          <img src={contactImage} alt="Contact" className="contact-image" /> {/* Added image */}
           <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
         </div>
       </div>
