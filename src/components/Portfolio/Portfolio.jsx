@@ -55,7 +55,6 @@ const Portfolio = () => {
 
   return (
     <div className="portfolio" id="portfolio">
-      <span style={{ color: darkMode ? "white" : "" }}>Portfolio</span>
       <span>Social Media Posts</span>
 
       <Swiper

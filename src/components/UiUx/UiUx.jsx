@@ -55,6 +55,8 @@ const UiUx = () => {
 
   return (
     <div className="UiUx" id="UiUx">
+      <span style={{ color: darkMode ? "white" : "" }}>Portfolio</span>
+      <br></br>
       {/* heading */}
       <span style={{ color: darkMode ? "white" : "" }}>UI/UX Design</span>
 

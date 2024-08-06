@@ -4,11 +4,12 @@
   justify-content: center;
   flex-direction: column;
   height: 70vh;
+  margin-top: 50px;
 
 }
 /* heading */
 .portfolio span:nth-of-type(1) {
-  color: var(--black);
+  color: var(--orange);
   font-size: 2rem;
   font-weight: bold;
 }

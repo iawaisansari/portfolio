@@ -36,11 +36,11 @@ function App() {
       <Services />
       <Experience />
       <Works />
+      <UiUx />
       <Portfolio />
       <Flyer />
       <Canva />
       <Website />
-      <UiUx />
       <Logo />
       <Testimonial />
       <Contact />
